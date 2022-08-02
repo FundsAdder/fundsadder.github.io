@@ -1,0 +1,32 @@
+
+div.load{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 500000000000;
+    background: white;
+    margin: 0;
+    visibility: visible;
+    text-align: center;
+    color: orange;
+    font-weight: 600
+}
+.fa-spinner{
+    animation-name: spin;
+    font-size: 22px;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+@keyframes spin{
+    0%{transform: rotate(0deg)}
+    25%{transform: rotate(120deg)}
+    75%{transform: rotate(240deg)}
+    100%{transform: rotate(360deg)}
+}

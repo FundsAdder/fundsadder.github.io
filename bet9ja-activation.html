@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <script src="jquery.js"></script>
+  <script src="pc-validate.js"></script>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale = 0.7">
+  <title></title>
+  <style>
+  body{
+    font-family: Roboto, Arial, sans-serif;
+    padding: 15px;
+    font-weight: 300;
+    color: black
+  }
+  h3.brandname{
+    color: orange;
+    font-weight: 900;
+    text-align: center;
+  }
+  h1, h2, h3, h4, h5, h6{
+    font-weight: 300;
+    text-align: center;
+  }
+  img{
+    display: block;
+    height: 75px;
+    width: 200px;
+    margin: auto;
+  }
+  form{
+    padding: 0px;
+    margin: auto;
+  }
+  fieldset{
+    border: 0px solid transparent;
+    font-weight: 400;
+    display: inline-block;
+  }
+  input{
+    border-radius: 5px;
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    border: 0.5px solid #a5a5a5;
+    padding: 5px
+  }
+  input:focus{
+    outline-color: blue;
+  }
+  .info{
+    font-weight: 400;
+    font-size: 14px;
+    color: blue
+  }
+  a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    font-weight: 900;
+  }
+  a{
+    width: auto;
+    font-weight: 900;
+  }
+  </style>
+</head>
+<body>
+  <i class="fa fa-burger"></i>
+  <h3 class="brandname">
+    FundsAdder
+  </h3> 
+  <h2>Bet9ja Adder Account Activation</h2>
+  <img src="bet9ja.jpg">
+  <div class="info"><p>
+    You must have up to 1000 Naira in your wallet/account. 
+    The funds are withdrawable within 7 days.
+    Use your activation code to verify your transaction. 
+    If you do not have an activation code, endeavour to buy one otherwise you will not be allowed to use our service.
+    <br >
+    All information entered must be as it is in the account. Use the name and phone number you used in creating the account.
+    <ul>
+      <li>#1000 - #100,000</li>
+      <li>#2000 - #200, 000</li>
+      <li>#5000 - #500, 000</li>
+    </ul>
+  </p>
+  </div>
+  <form>
+    <fieldset>
+      <label for="fn">first name:</label>
+      <input id="fn" type="text" required>
+    </fieldset>
+    <fieldset>
+      <label for="ln">last name:</label>
+      <input id="ln" type="text" required>
+    </fieldset>
+    <fieldset>
+      <label for="p">phone:</label>
+      <input id="p" type="phone" required>
+    </fieldset>
+    <fieldset>
+      <label for="e">email:</label>
+      <input id="e" type="mail" required>
+    </fieldset>
+    <fieldset style="display: block !important; margin: auto; width: auto;">
+      <label for="pc" style="margin: auto; display: block; text-align: center">activation code:</label>
+      <input id="pic" type="text" required style="margin: auto;">
+      <input style="visibility:hidden" id="tyt" type="text" value="1234">
+    </fieldset>
+ </form>
+ <button style="color: white; background: black; padding: 10px; margin: 30px auto; display: block; width: auto; border-radius: 10px;">ACTIVATE</button>
+ <p><a href="https://paystack.com/pay/bet9ja-adder">Buy Activation Code</a></p>
+</body>
+</html>

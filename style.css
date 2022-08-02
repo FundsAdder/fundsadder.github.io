@@ -1,0 +1,211 @@
+@media all{
+  body{
+    font-weight: 300;
+    padding: 10px;
+    font-family: Helvetica, Arial;
+    line-height: 160%;
+    font-size: 18px;
+    background: white;
+  }
+  header{
+    position: fixed;
+    left: 0;
+    padding: 5px;
+    right: 0;
+    top: 0;
+    box-shadow: 0px 0px 5px black;
+    background: white;
+    z-index: 20000000;
+    vertical-align: middle;
+  }
+  header h3{
+    padding: 0px;
+    display: inline-block;
+    line-height: 0%;
+    margin: 0;
+    vertical-align: middle;
+  }
+  header .fa-navicon, .fa-close{
+    display: inline-block;
+    margin: 10px 15px 5px 0px;
+    float: right;
+    padding: 0px;
+  }
+  .menuitem{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background: #343466;
+    width: 80%;
+    max-width: 300px;
+    color: #afafaf;
+    font-weight: 500;
+    box-shadow: 2px 0px 10px #000;
+    overflow-y: scroll;
+    display: none;
+  }
+  header li{
+    font-size: 75%;
+    list-style: none;
+  }
+  header li img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  }
+  .fa-angle-down{
+    font-size: 12px;
+    font-weight: 200;
+  }
+  header ul{
+    text-indent: -30px;
+    margin: 10px;
+    display: none;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-weight: 300;
+    line-height: 150%;
+  }
+  #intro{
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    margin: 0;
+    color: #dfdfdf;
+    background: rgba(25, 20, 50, .85);
+  }
+  figure{
+    display: block;
+    margin: 50px auto;
+  }
+  figure img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto auto;
+  }
+  figure figcaption h3{
+    display: block;
+    text-align: center;
+    font-weight: 400 !important;
+    color: #454589;
+  }
+  #how{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: rgba(20, 20, 20, .9);
+    color: white;
+    padding: 15px;
+  }
+  .warning{
+    color: yellow;
+    font-size: 15px;
+  }
+  .colored_green,.colored_blue,.colored_purple{
+    color: greenyellow;
+    font-weight: 600;
+  }
+  .brandname{
+    color: orange;
+    font-weight: 900;
+  }
+  aside{
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-weight: 400;
+    padding: 15px;
+    background: #343456;
+    color: #adadad;
+  }
+  footer{
+    background: #fafbfa;
+    position: absolute;
+    left:0;
+    right:0;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 150%
+  }
+  footer p{
+    list-style: inside none;
+    display: inline;
+    width: auto;
+    padding: 0px 15px;
+    border-right: 2px solid black;
+  }
+  footer p:last-child{
+    border-right: 0px solid transparent;
+  }
+  footer p:first-child{
+    margin-left: 0px;
+  }
+  h1.number{
+    font-size: 40px;
+    display: block;
+    margin: auto;
+    color: #d1d1d1;
+    font-weight: 900;
+    width: auto;
+    text-align: center;
+  }
+  #fi{
+    display: block;
+    float: right;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  button h3{
+    font-weight: 900;
+  }
+  button{
+    display: block;
+    width: auto;
+    border-radius: 5px;
+    float: right;
+    background: white
+  }
+  div.load{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 500000000000;
+    background: white;
+    margin: 0;
+    visibility: hidden;
+  }
+  .fa-spinner{
+    animation-name: spin;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes spin{
+    0%{transform: rotate(0deg)}
+    25%{transform: rotate(120deg)}
+    75%{transform: rotate(240deg)}
+    100%{transform: rotate(360deg)}
+  }
+  a, a:link, a:focus, a:active, a:visited{
+    color: inherit;
+    text-decoration: none;
+  }
+}
